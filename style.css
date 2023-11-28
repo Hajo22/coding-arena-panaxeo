@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    width: 10%;
+    height: 2rem;
+    position: relative;
+    display: block;
+    margin: 1rem auto;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+#board{
+    width: 40%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 1rem auto;
+    background-color: gray;
+}
+
+#pos{
+    width: 8.30%;
+    height: 8vh;
+    position: relative;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: gray;
+    color: whitesmoke;
+}
